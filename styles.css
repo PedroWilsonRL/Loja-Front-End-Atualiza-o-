@@ -27,6 +27,37 @@ header .logo {
     height: auto;
 }
 
+header .user {
+    position: absolute;
+    top: 50px; 
+    left: 92%;
+    transform: translateX(-50%); 
+    width: 50px; 
+    height: auto;
+}
+
+header .carrinho {
+    position: absolute;
+    top: 41px; 
+    left: 86%;
+    transform: translateX(-50%); 
+    width: 75px; 
+    height: auto;
+}
+
+
+.user-link:hover .user,
+.cart-link:hover .carrinho {
+    opacity: 0.8; 
+    transition: opacity 0.3s; 
+}
+
+
+a {
+    text-decoration: none; 
+}
+
+
 .search-container {
     position: absolute;
     top: 60px; 
