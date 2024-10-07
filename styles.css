@@ -167,6 +167,27 @@ main h2 {
     margin-top: 30px; 
 }
 
+.oferta-container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px; 
+}
+
+.oferta-container3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px; 
+}
+
+.oferta-container4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px; 
+}
+
 .produto {
     display: flex;
     flex-direction: column; 
@@ -192,6 +213,46 @@ main h2 {
 }
 
 .mini-texto {
+    margin-top: 5px; 
+    font-family: Bebas Neue;
+    font-size: 18px;
+    color: #0c0c0c;
+}
+
+.mini-texto-container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.mini-texto2 {
+    margin-top: 5px; 
+    font-family: Bebas Neue;
+    font-size: 15px;
+    color: #828282;
+    text-decoration: line-through;
+}
+
+.mini-texto-container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.mini-texto3 {
+    margin-top: 5px; 
+    font-family: Bebas Neue;
+    font-size: 15px;
+    color: #828282;
+}
+
+.mini-texto-container4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.mini-texto4 {
     margin-top: 5px; 
     font-family: Bebas Neue;
     font-size: 18px;
