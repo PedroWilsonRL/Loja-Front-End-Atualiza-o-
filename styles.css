@@ -273,3 +273,37 @@ footer {
 footer p {
     margin: 0;
 }
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+}
+
+.footer-group {
+    flex: 1;
+}
+
+.footer-note {
+    left: 60%;
+    font-size: 20px;
+    color: #0c0c0c;
+    margin-top: 10px;
+}
+
+.footer-note2 {
+    display: block; 
+    left: 60%;
+    font-size: 14px;
+    color: #505050;
+    margin-top: 10px;
+    text-decoration: none; 
+}
+
+.footer-note2:hover {
+    color: #0c0c0c;
+}
+
+.footer-copyright {
+    margin-top: 30px; 
+}
